@@ -11,10 +11,5 @@
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*
-* SPDX-License-Identifier: Apache-2.0
 
-
-* Top level circuit sky130_fd_pr__rf_npn_05v5_W1p00L2p00
-X0 a_762_762# w_360_360# dw_80_80# SUBS sky130_fd_pr__npn_05v0 area=2e+12p
-.end
+x0 a_762_762# w_360_360# dw_80_80# subs sky130_fd_pr__npn_05v0 area=2e+12p

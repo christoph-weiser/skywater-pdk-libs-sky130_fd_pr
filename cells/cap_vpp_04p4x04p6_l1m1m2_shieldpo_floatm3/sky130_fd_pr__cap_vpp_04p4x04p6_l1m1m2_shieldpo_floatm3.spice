@@ -11,9 +11,6 @@
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*
-* SPDX-License-Identifier: Apache-2.0
 
-
-.subckt sky130_fd_pr__cap_vpp_04p4x04p6_l1m1m2_shieldpo_floatm3 C0 C1 SUB MET3
+.subckt sky130_fd_pr__cap_vpp_04p4x04p6_l1m1m2_shieldpo_floatm3 c0 c1 sub met3
 .ends

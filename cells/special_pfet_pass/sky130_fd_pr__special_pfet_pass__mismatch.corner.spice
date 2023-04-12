@@ -12,7 +12,6 @@
 * See the License for the specific language governing permissions and
 * limitations under the License.
 
-* SKY130 Spice File.
 .param sky130_fd_pr__special_pfet_pass__tox_slope=5.567e-03
 .param sky130_fd_pr__special_pfet_pass__vth0_slope=5.567e-03
 .param sky130_fd_pr__special_pfet_pass__nfactor_slope=0.0

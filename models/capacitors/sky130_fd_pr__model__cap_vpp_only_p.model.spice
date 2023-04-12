@@ -12,14 +12,7 @@
 * See the License for the specific language governing permissions and
 * limitations under the License.
 
-* SKY130 Spice File.
-.param sky130_fd_pr__model__cap_vpp_only_p__slope = 0.0
-* statistics {
-*   mismatch {
-*     vary  sky130_fd_pr__model__cap_vpp_only_p__slope dist=gauss std=1.0
-*   }
-* }
-* 4-terminal Vertical Parallel Plate Capacitor /w LI-M4 fingers and M5 Shield
+.param sky130_fd_pr__model__cap_vpp_only_p__slope=0.0
 .include "../../cells/cap_vpp_11p5x11p7_l1m1m2m3m4_shieldm5/sky130_fd_pr__cap_vpp_11p5x11p7_l1m1m2m3m4_shieldm5.model.spice"
 .include "../../cells/cap_vpp_11p5x11p7_l1m1m2m3m4_shieldpom5/sky130_fd_pr__cap_vpp_11p5x11p7_l1m1m2m3m4_shieldpom5.model.spice"
 .include "../../cells/cap_vpp_11p5x11p7_m1m2m3m4_shieldl1m5/sky130_fd_pr__cap_vpp_11p5x11p7_m1m2m3m4_shieldl1m5.model.spice"

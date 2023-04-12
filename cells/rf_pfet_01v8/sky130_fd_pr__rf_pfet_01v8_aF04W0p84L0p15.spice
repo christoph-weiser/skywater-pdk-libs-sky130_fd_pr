@@ -11,13 +11,10 @@
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*
-* SPDX-License-Identifier: Apache-2.0
 
-
-.subckt sky130_fd_pr__rf_pfet_01v8_aF04W0p84L0p15 BULK DRAIN GATE SOURCE
-X0 SOURCE GATE DRAIN BULK sky130_fd_pr__pfet_01v8 w=840000u l=150000u
-X1 DRAIN GATE SOURCE BULK sky130_fd_pr__pfet_01v8 w=840000u l=150000u
-X2 SOURCE GATE DRAIN BULK sky130_fd_pr__pfet_01v8 w=840000u l=150000u
-X3 DRAIN GATE SOURCE BULK sky130_fd_pr__pfet_01v8 w=840000u l=150000u
+.subckt sky130_fd_pr__rf_pfet_01v8_af04w0p84l0p15 bulk drain gate source
+x0 source gate drain bulk sky130_fd_pr__pfet_01v8 w=840000u l=150000u
+x1 drain gate source bulk sky130_fd_pr__pfet_01v8 w=840000u l=150000u
+x2 source gate drain bulk sky130_fd_pr__pfet_01v8 w=840000u l=150000u
+x3 drain gate source bulk sky130_fd_pr__pfet_01v8 w=840000u l=150000u
 .ends

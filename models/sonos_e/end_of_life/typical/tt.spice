@@ -1,45 +1,46 @@
-* SKY130 Spice File.
-* Number of bins: 1
-* 9 parameters
-.param
-+ sky130_fd_bs_flash__special_sonosfet_star__tox_mult = 1.0
-+ sky130_fd_bs_flash__special_sonosfet_star__ajunction_mult = 1.0
-+ sky130_fd_bs_flash__special_sonosfet_star__pjunction_mult = 1.0
-+ sky130_fd_bs_flash__special_sonosfet_star__overlap_mult = 1.0
-+ sky130_fd_bs_flash__special_sonosfet_star__lint_diff = 0.0
-+ sky130_fd_bs_flash__special_sonosfet_star__wint_diff = 0.0
-+ sky130_fd_bs_flash__special_sonosfet_star__dlc_diff = 0.0
-+ sky130_fd_bs_flash__special_sonosfet_star__dwc_diff = 0.0
+* Copyright 2020 The SkyWater PDK Authors
 *
-* sky130_fd_bs_flash__special_sonosfet_star, Bin 000, W = 0.45, L = 0.22
-* ------------------------------------
-+ sky130_fd_bs_flash__special_sonosfet_star__k2_diff_0 = 0.0
-+ sky130_fd_bs_flash__special_sonosfet_star__vth0_diff_0 = 1.4633e-1
-+ sky130_fd_bs_flash__special_sonosfet_star__u0_diff_0 = 4.7268e-3
-+ sky130_fd_bs_flash__special_sonosfet_star__vsat_diff_0 = 0.0
-+ sky130_fd_bs_flash__special_sonosfet_star__kt1_diff_0 = -4.1660e-1
-+ sky130_fd_bs_flash__special_sonosfet_star__nfactor_diff_0 = 0.0
-+ sky130_fd_bs_flash__special_sonosfet_star__rdsw_diff_0 = 0.0
-+ sky130_fd_bs_flash__special_sonosfet_star__voff_diff_0 = 0.0
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
 *
-* sky130_fd_bs_flash__special_sonosfet_star, Bin 001, W = 1.00, L = 0.50
-* ------------------------------------
-+ sky130_fd_bs_flash__special_sonosfet_star__k2_diff_1 = 0.0
-+ sky130_fd_bs_flash__special_sonosfet_star__vth0_diff_1 = 5.7588e-1
-+ sky130_fd_bs_flash__special_sonosfet_star__vsat_diff_1 = 0.0
-+ sky130_fd_bs_flash__special_sonosfet_star__kt1_diff_1 = -3.4172e-1
-+ sky130_fd_bs_flash__special_sonosfet_star__u0_diff_1 = -2.3191e-3
-+ sky130_fd_bs_flash__special_sonosfet_star__nfactor_diff_1 = 0.0
-+ sky130_fd_bs_flash__special_sonosfet_star__rdsw_diff_1 = 0.0
-+ sky130_fd_bs_flash__special_sonosfet_star__voff_diff_1 = 0.0
+*     https://www.apache.org/licenses/LICENSE-2.0
 *
-* sky130_fd_bs_flash__special_sonosfet_star, Bin 002, W = 0.35, L = 0.15
-* ------------------------------------
-+ sky130_fd_bs_flash__special_sonosfet_star__k2_diff_2 = 0.0
-+ sky130_fd_bs_flash__special_sonosfet_star__vth0_diff_2 = -2.6498e-1
-+ sky130_fd_bs_flash__special_sonosfet_star__u0_diff_2 = -5.2454e-3
-+ sky130_fd_bs_flash__special_sonosfet_star__vsat_diff_2 = 0.0
-+ sky130_fd_bs_flash__special_sonosfet_star__kt1_diff_2 = -6.6727e-1
-+ sky130_fd_bs_flash__special_sonosfet_star__nfactor_diff_2 = 0.0
-+ sky130_fd_bs_flash__special_sonosfet_star__rdsw_diff_2 = 0.0
-+ sky130_fd_bs_flash__special_sonosfet_star__voff_diff_2 = 0.0
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+
+.param sky130_fd_bs_flash__special_sonosfet_star__tox_mult=1.0
+.param sky130_fd_bs_flash__special_sonosfet_star__ajunction_mult=1.0
+.param sky130_fd_bs_flash__special_sonosfet_star__pjunction_mult=1.0
+.param sky130_fd_bs_flash__special_sonosfet_star__overlap_mult=1.0
+.param sky130_fd_bs_flash__special_sonosfet_star__lint_diff=0.0
+.param sky130_fd_bs_flash__special_sonosfet_star__wint_diff=0.0
+.param sky130_fd_bs_flash__special_sonosfet_star__dlc_diff=0.0
+.param sky130_fd_bs_flash__special_sonosfet_star__dwc_diff=0.0
+.param sky130_fd_bs_flash__special_sonosfet_star__k2_diff_0=0.0
+.param sky130_fd_bs_flash__special_sonosfet_star__vth0_diff_0=1.4633e-1
+.param sky130_fd_bs_flash__special_sonosfet_star__u0_diff_0=4.7268e-3
+.param sky130_fd_bs_flash__special_sonosfet_star__vsat_diff_0=0.0
+.param sky130_fd_bs_flash__special_sonosfet_star__kt1_diff_0=-4.1660e-1
+.param sky130_fd_bs_flash__special_sonosfet_star__nfactor_diff_0=0.0
+.param sky130_fd_bs_flash__special_sonosfet_star__rdsw_diff_0=0.0
+.param sky130_fd_bs_flash__special_sonosfet_star__voff_diff_0=0.0
+.param sky130_fd_bs_flash__special_sonosfet_star__k2_diff_1=0.0
+.param sky130_fd_bs_flash__special_sonosfet_star__vth0_diff_1=5.7588e-1
+.param sky130_fd_bs_flash__special_sonosfet_star__vsat_diff_1=0.0
+.param sky130_fd_bs_flash__special_sonosfet_star__kt1_diff_1=-3.4172e-1
+.param sky130_fd_bs_flash__special_sonosfet_star__u0_diff_1=-2.3191e-3
+.param sky130_fd_bs_flash__special_sonosfet_star__nfactor_diff_1=0.0
+.param sky130_fd_bs_flash__special_sonosfet_star__rdsw_diff_1=0.0
+.param sky130_fd_bs_flash__special_sonosfet_star__voff_diff_1=0.0
+.param sky130_fd_bs_flash__special_sonosfet_star__k2_diff_2=0.0
+.param sky130_fd_bs_flash__special_sonosfet_star__vth0_diff_2=-2.6498e-1
+.param sky130_fd_bs_flash__special_sonosfet_star__u0_diff_2=-5.2454e-3
+.param sky130_fd_bs_flash__special_sonosfet_star__vsat_diff_2=0.0
+.param sky130_fd_bs_flash__special_sonosfet_star__kt1_diff_2=-6.6727e-1
+.param sky130_fd_bs_flash__special_sonosfet_star__nfactor_diff_2=0.0
+.param sky130_fd_bs_flash__special_sonosfet_star__rdsw_diff_2=0.0
+.param sky130_fd_bs_flash__special_sonosfet_star__voff_diff_2=0.0

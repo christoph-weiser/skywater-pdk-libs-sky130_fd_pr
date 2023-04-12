@@ -12,10 +12,5 @@
 * See the License for the specific language governing permissions and
 * limitations under the License.
 
-* SKY130 Spice File.
-* statistics {
-*   mismatch {
-*   }
-* }
 .include "../../cells/cap_vpp_04p4x04p6_m1m2_noshield/sky130_fd_pr__cap_vpp_04p4x04p6_m1m2_noshield_o1nhv.model.spice"
 .include "../../cells/cap_vpp_04p4x04p6_m1m2_noshield/sky130_fd_pr__cap_vpp_04p4x04p6_m1m2_noshield_o1phv.model.spice"

@@ -12,6 +12,5 @@
 * See the License for the specific language governing permissions and
 * limitations under the License.
 
-* SKY130 Spice File.
 .include "../../cells/cap_mim_m3/sky130_fd_pr__cap_mim_m3_1.model.spice"
 .include "../../cells/cap_mim_m3/sky130_fd_pr__cap_mim_m3_2.model.spice"

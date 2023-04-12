@@ -12,9 +12,6 @@
 * See the License for the specific language governing permissions and
 * limitations under the License.
 
-* SKY130 Spice File.
-* Number of bins: 52
-.param
-+ sky130_fd_pr__pfet_01v8__ajunction_mult = 1.0625
-+ sky130_fd_pr__pfet_01v8__pjunction_mult = 1.0675
+.param sky130_fd_pr__pfet_01v8__ajunction_mult=1.0625
+.param sky130_fd_pr__pfet_01v8__pjunction_mult=1.0675
 .include "sky130_fd_pr__pfet_01v8__ss.pm3.spice"

@@ -12,7 +12,6 @@
 * See the License for the specific language governing permissions and
 * limitations under the License.
 
-* SKY130 Spice File.
 .include "sky130_fd_pr__model__parasitic__diode_pw2dn.model.spice"
 .include "sky130_fd_pr__model__parasitic__diode_pw2dn_noresistor.model.spice"
 .include "sky130_fd_pr__model__parasitic__rf_diode_pw2dn.model.spice"

@@ -12,7 +12,6 @@
 * See the License for the specific language governing permissions and
 * limitations under the License.
 
-* SKY130 Spice File.
 .include "../cells/ind_05/sky130_fd_pr__ind_05_220.model.spice"
 .include "../cells/ind_05/sky130_fd_pr__ind_05_125.model.spice"
 .include "../cells/ind_03/sky130_fd_pr__ind_03_90.model.spice"

@@ -11,19 +11,16 @@
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*
-* SPDX-License-Identifier: Apache-2.0
 
-
-.subckt sky130_fd_pr__rf_nfet_g5v0d10v5_aM10W3p00L0p50 DRAIN GATE SOURCE SUBSTRATE
-X0 SOURCE GATE DRAIN SUBSTRATE sky130_fd_pr__nfet_g5v0d10v5 w=3.01e+06u l=500000u
-X1 DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__nfet_g5v0d10v5 w=3.01e+06u l=500000u
-X2 SOURCE GATE DRAIN SUBSTRATE sky130_fd_pr__nfet_g5v0d10v5 w=3.01e+06u l=500000u
-X3 DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__nfet_g5v0d10v5 w=3.01e+06u l=500000u
-X4 DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__nfet_g5v0d10v5 w=3.01e+06u l=500000u
-X5 SOURCE GATE DRAIN SUBSTRATE sky130_fd_pr__nfet_g5v0d10v5 w=3.01e+06u l=500000u
-X6 DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__nfet_g5v0d10v5 w=3.01e+06u l=500000u
-X7 SOURCE GATE DRAIN SUBSTRATE sky130_fd_pr__nfet_g5v0d10v5 w=3.01e+06u l=500000u
-X8 SOURCE GATE DRAIN SUBSTRATE sky130_fd_pr__nfet_g5v0d10v5 w=3.01e+06u l=500000u
-X9 DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__nfet_g5v0d10v5 w=3.01e+06u l=500000u
+.subckt sky130_fd_pr__rf_nfet_g5v0d10v5_am10w3p00l0p50 drain gate source substrate
+x0 source gate drain substrate sky130_fd_pr__nfet_g5v0d10v5 w=3.01e+06u l=500000u
+x1 drain gate source substrate sky130_fd_pr__nfet_g5v0d10v5 w=3.01e+06u l=500000u
+x2 source gate drain substrate sky130_fd_pr__nfet_g5v0d10v5 w=3.01e+06u l=500000u
+x3 drain gate source substrate sky130_fd_pr__nfet_g5v0d10v5 w=3.01e+06u l=500000u
+x4 drain gate source substrate sky130_fd_pr__nfet_g5v0d10v5 w=3.01e+06u l=500000u
+x5 source gate drain substrate sky130_fd_pr__nfet_g5v0d10v5 w=3.01e+06u l=500000u
+x6 drain gate source substrate sky130_fd_pr__nfet_g5v0d10v5 w=3.01e+06u l=500000u
+x7 source gate drain substrate sky130_fd_pr__nfet_g5v0d10v5 w=3.01e+06u l=500000u
+x8 source gate drain substrate sky130_fd_pr__nfet_g5v0d10v5 w=3.01e+06u l=500000u
+x9 drain gate source substrate sky130_fd_pr__nfet_g5v0d10v5 w=3.01e+06u l=500000u
 .ends

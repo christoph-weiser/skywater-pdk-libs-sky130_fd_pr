@@ -12,7 +12,6 @@
 * See the License for the specific language governing permissions and
 * limitations under the License.
 
-* SKY130 Spice File.
 .param sky130_fd_pr__special_nfet_latch__tox_slope=5.989e-03
 .param sky130_fd_pr__special_nfet_latch__vth0_slope=5.289e-03
 .param sky130_fd_pr__special_nfet_latch__lint_slope=0

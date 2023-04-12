@@ -1,47 +1,56 @@
-* SKY130 Spice File.
-.param
-+ tol_nfom=0
-+ tol_pfom=0
-+ tol_nw = 0.0
-+ tol_poly = 0.0
-+ tol_li = 0.0
-+ tol_m1 = 0.0
-+ tol_m2 = 0.0
-+ tol_m3 = 0.0
-+ tol_m4 = 0.0
-+ tol_m5 = 0.0
-+ tol_rdl = 0.0
-.param
-+ rcn=182
-+ rcp=600
-+ rdn=120
-+ rdp=197
-+ rdn_hv=114
-+ rdp_hv=191
-+ rp1=48.2
-+ rnw=1700
-+ rl1=12.2
-+ rm1=0.125
-+ rm2=0.125
-+ rm3=0.047
-+ rm4=0.047
-+ rm5=0.0285
-+ rrdl=0.005
-+ rcp1=145.28
-+ rcl1=9.3
-+ rcvia=4.5
-+ rcvia2=3.41
-+ rcvia3=3.41
-+ rcvia4=0.38
-+ rcrdlcon=0.0058
-+ rspwres=3816
-* P+ Poly Preres Parameters
-.param
-+ crpf_precision = 1.06e-04  $ Units: farad/meter^2
-+ crpfsw_precision_1_1 = 5.04e-11 $ Units: farad/meter
-+ crpfsw_precision_2_1 = 5.39e-11 $ Units: farad/meter
-+ crpfsw_precision_4_1 = 5.83e-11 $ Units: farad/meter
-+ crpfsw_precision_8_2 = 6.36e-11 $ Units: farad/meter
-+ crpfsw_precision_16_2 = 6.97e-11 $ Units: farad/meter
+* Copyright 2020 The SkyWater PDK Authors
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*     https://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+
+.param tol_nfom=0
+.param tol_pfom=0
+.param tol_nw=0.0
+.param tol_poly=0.0
+.param tol_li=0.0
+.param tol_m1=0.0
+.param tol_m2=0.0
+.param tol_m3=0.0
+.param tol_m4=0.0
+.param tol_m5=0.0
+.param tol_rdl=0.0
+.param rcn=182
+.param rcp=600
+.param rdn=120
+.param rdp=197
+.param rdn_hv=114
+.param rdp_hv=191
+.param rp1=48.2
+.param rnw=1700
+.param rl1=12.2
+.param rm1=0.125
+.param rm2=0.125
+.param rm3=0.047
+.param rm4=0.047
+.param rm5=0.0285
+.param rrdl=0.005
+.param rcp1=145.28
+.param rcl1=9.3
+.param rcvia=4.5
+.param rcvia2=3.41
+.param rcvia3=3.41
+.param rcvia4=0.38
+.param rcrdlcon=0.0058
+.param rspwres=3816
+.param crpf_precision=1.06e-04
+.param crpfsw_precision_1_1=5.04e-11
+.param crpfsw_precision_2_1=5.39e-11
+.param crpfsw_precision_4_1=5.83e-11
+.param crpfsw_precision_8_2=6.36e-11
+.param crpfsw_precision_16_2=6.97e-11
 .include "../sky130_fd_pr__model__r+c.model.spice"
 .include "../parameters/typical.spice"

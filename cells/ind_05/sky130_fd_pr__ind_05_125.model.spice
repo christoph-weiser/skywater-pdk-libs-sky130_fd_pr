@@ -12,18 +12,17 @@
 * See the License for the specific language governing permissions and
 * limitations under the License.
 
-* SKY130 Spice File.
-.subckt  sky130_fd_pr__ind_05_125 a b ct sub
-R31 net27 b r='1e-2'
-R26 a net23 r='1e-2'
-C24 net35 net27 c='103.1e-15'
-C25 net23 net37 c='357e-15'
-C1 net27 net31 c='357e-15'
-R3 sub net31 r='3.67e3'
-R2 net41 net27 r='1.7645'
-R13 net23 net35 r='9.312'
-R10 sub net37 r='3.67e3'
-R9 net23 net39 r='1.7645'
-    L1 net39 ct l=2.895e-9
-    L2 ct net41 l=2.895e-9
+.subckt sky130_fd_pr__ind_05_125 a b ct sub
+r31 net27 b r='1e-2'
+r26 a net23 r='1e-2'
+c24 net35 net27 c='103.1e-15'
+c25 net23 net37 c='357e-15'
+c1 net27 net31 c='357e-15'
+r3 sub net31 r='3.67e3'
+r2 net41 net27 r='1.7645'
+r13 net23 net35 r='9.312'
+r10 sub net37 r='3.67e3'
+r9 net23 net39 r='1.7645'
+l1 net39 ct l=2.895e-9
+l2 ct net41 l=2.895e-9
 .ends sky130_fd_pr__ind_05_125

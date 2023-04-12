@@ -11,13 +11,10 @@
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*
-* SPDX-License-Identifier: Apache-2.0
 
-
-.subckt sky130_fd_pr__cap_vpp_06p8x06p1_l1m1m2m3_shieldpom4_top C0 C1 M4 SUB
-Xsky130_fd_pr__cap_vpp_06p8x06p1_l1m1m2m3_shieldpom4_0[0|0] M4 C0 C1 SUB sky130_fd_pr__cap_vpp_06p8x06p1_l1m1m2m3_shieldpom4
-Xsky130_fd_pr__cap_vpp_06p8x06p1_l1m1m2m3_shieldpom4_0[1|0] M4 C0 C1 SUB sky130_fd_pr__cap_vpp_06p8x06p1_l1m1m2m3_shieldpom4
-Xsky130_fd_pr__cap_vpp_06p8x06p1_l1m1m2m3_shieldpom4_0[0|1] M4 C0 C1 SUB sky130_fd_pr__cap_vpp_06p8x06p1_l1m1m2m3_shieldpom4
-Xsky130_fd_pr__cap_vpp_06p8x06p1_l1m1m2m3_shieldpom4_0[1|1] M4 C0 C1 SUB sky130_fd_pr__cap_vpp_06p8x06p1_l1m1m2m3_shieldpom4
+.subckt sky130_fd_pr__cap_vpp_06p8x06p1_l1m1m2m3_shieldpom4_top c0 c1 m4 sub
+xsky130_fd_pr__cap_vpp_06p8x06p1_l1m1m2m3_shieldpom4_0[0|0] m4 c0 c1 sub sky130_fd_pr__cap_vpp_06p8x06p1_l1m1m2m3_shieldpom4
+xsky130_fd_pr__cap_vpp_06p8x06p1_l1m1m2m3_shieldpom4_0[1|0] m4 c0 c1 sub sky130_fd_pr__cap_vpp_06p8x06p1_l1m1m2m3_shieldpom4
+xsky130_fd_pr__cap_vpp_06p8x06p1_l1m1m2m3_shieldpom4_0[0|1] m4 c0 c1 sub sky130_fd_pr__cap_vpp_06p8x06p1_l1m1m2m3_shieldpom4
+xsky130_fd_pr__cap_vpp_06p8x06p1_l1m1m2m3_shieldpom4_0[1|1] m4 c0 c1 sub sky130_fd_pr__cap_vpp_06p8x06p1_l1m1m2m3_shieldpom4
 .ends

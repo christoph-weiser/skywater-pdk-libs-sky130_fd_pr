@@ -12,10 +12,5 @@
 * See the License for the specific language governing permissions and
 * limitations under the License.
 
-* SKY130 Spice File.
-* statistics {
-*   mismatch {
-*   }
-* }
 .include "../cells/pnp_05v5/sky130_fd_pr__pnp_05v5_W0p68L0p68.model.spice"
 .include "../cells/pnp_05v5/sky130_fd_pr__pnp_05v5_W3p40L3p40.model.spice"

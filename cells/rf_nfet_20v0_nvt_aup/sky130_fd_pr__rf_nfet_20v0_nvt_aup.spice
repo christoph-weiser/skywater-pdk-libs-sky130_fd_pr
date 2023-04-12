@@ -11,11 +11,8 @@
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*
-* SPDX-License-Identifier: Apache-2.0
 
-
-.subckt sky130_fd_pr__rf_nfet_20v0_nvt_aup D PSUB S
-X0 D a_n900_n1000# S PSUB sky130_fd_pr__nfet_20v0_nvt w=3e+07u l=1.5e+06u
-X1 D a_n900_n1000# S PSUB sky130_fd_pr__nfet_20v0_nvt w=3e+07u l=1.5e+06u
+.subckt sky130_fd_pr__rf_nfet_20v0_nvt_aup d psub s
+x0 d a_n900_n1000# s psub sky130_fd_pr__nfet_20v0_nvt w=3e+07u l=1.5e+06u
+x1 d a_n900_n1000# s psub sky130_fd_pr__nfet_20v0_nvt w=3e+07u l=1.5e+06u
 .ends

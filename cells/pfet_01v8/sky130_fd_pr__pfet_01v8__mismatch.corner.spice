@@ -12,7 +12,6 @@
 * See the License for the specific language governing permissions and
 * limitations under the License.
 
-* SKY130 Spice File.
 .param sky130_fd_pr__pfet_01v8__toxe_slope=4.443e-03
 .param sky130_fd_pr__pfet_01v8__toxe_slope1=6.443e-03
 .param sky130_fd_pr__pfet_01v8__toxe_slope2=3.443e-03

@@ -1,43 +1,53 @@
-* SKY130 Spice File.
-* Fast    Varactor Parameters
-.param
-+ cnwvc_tox='41.6503*1.024*0.952'
-+ cnwvc_cdepmult=1.1
-+ cnwvc_cintmult=1.05
-+ cnwvc_vt1='0.3333-0.112'
-+ cnwvc_vt2='0.2380952-0.112'
-+ cnwvc_vtr='0.16-0.112'
-+ cnwvc_dwc=0.02
-+ cnwvc_dlc=0.01
-+ cnwvc_dld=0.0008
-+ cnwvc2_tox='41.7642*1.017*0.95'
-+ cnwvc2_cdepmult=1.05
-+ cnwvc2_cintmult=1.05
-+ cnwvc2_vt1='0.2-0.074'
-+ cnwvc2_vt2='0.33-0.074'
-+ cnwvc2_vtr='0.14-0.074'
-+ cnwvc2_dwc=0.02
-+ cnwvc2_dlc=0.01
-+ cnwvc2_dld=0.0006
-* sky130_fd_pr__model__parasitic__diode_ps2nw Parameters
-.param
-+ sky130_fd_pr__model__parasitic__diode_ps2nw__ajunction_mult = 1.1756e+00    $ Units: farad/meter^2
-+ sky130_fd_pr__model__parasitic__diode_ps2nw__pjunction_mult = 1.0618e+00    $ Units: farad/meter^2
-* sky130_fd_pr__model__parasitic__diode_ps2dn Parameters
-+ sky130_fd_pr__model__parasitic__diode_ps2dn__ajunction_mult = 1.2464     $ Units: farad/meter
-+ sky130_fd_pr__model__parasitic__diode_ps2dn__pjunction_mult = 1.3319      $ Units: farad/meter
-* sky130_fd_pr__model__parasitic__diode_pw2dn Parameters
-+ sky130_fd_pr__model__parasitic__diode_pw2dn__ajunction_mult = 1.280     $ Units: farad/meter
-+ sky130_fd_pr__model__parasitic__diode_pw2dn__pjunction_mult = 1.022     $ Units: farad/meter
-* sky130_fd_pr__diode_pw2nd_05v5  Parameters
-+ sky130_fd_pr__nfet_01v8__ajunction_mult = 1.2169e+0
-+ sky130_fd_pr__nfet_01v8__pjunction_mult = 1.2474e+0
-* sky130_fd_pr__diode_pd2nw_05v5_hvt  Parameters
-+ sky130_fd_pr__pfet_01v8_hvt__ajunction_mult = 8.9020e-1
-+ sky130_fd_pr__pfet_01v8_hvt__pjunction_mult = 9.3088e-1
-+ dkispp=9.2840e-01 dkbfpp=9.5154e-01 dknfpp=1.000
-+ dkispp5x=1.0046e+00 dkbfpp5x=1.1288e+00 dknfpp5x=1.0009e+00 dkisepp5x=0.745
-+ cvpp2_nhvnative10x4_cor=0.862
-+ cvpp2_nhvnative10x4_sub=8.68e-16
-+ cvpp2_phv5x4_cor=1.136
-+ cvpp2_phv5x4_sub=1.23e-14
+* Copyright 2020 The SkyWater PDK Authors
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*     https://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+
+.param cnwvc_tox='41.6503*1.024*0.952'
+.param cnwvc_cdepmult=1.1
+.param cnwvc_cintmult=1.05
+.param cnwvc_vt1='0.3333-0.112'
+.param cnwvc_vt2='0.2380952-0.112'
+.param cnwvc_vtr='0.16-0.112'
+.param cnwvc_dwc=0.02
+.param cnwvc_dlc=0.01
+.param cnwvc_dld=0.0008
+.param cnwvc2_tox='41.7642*1.017*0.95'
+.param cnwvc2_cdepmult=1.05
+.param cnwvc2_cintmult=1.05
+.param cnwvc2_vt1='0.2-0.074'
+.param cnwvc2_vt2='0.33-0.074'
+.param cnwvc2_vtr='0.14-0.074'
+.param cnwvc2_dwc=0.02
+.param cnwvc2_dlc=0.01
+.param cnwvc2_dld=0.0006
+.param sky130_fd_pr__model__parasitic__diode_ps2nw__ajunction_mult=1.1756e+00
+.param sky130_fd_pr__model__parasitic__diode_ps2nw__pjunction_mult=1.0618e+00
+.param sky130_fd_pr__model__parasitic__diode_ps2dn__ajunction_mult=1.2464
+.param sky130_fd_pr__model__parasitic__diode_ps2dn__pjunction_mult=1.3319
+.param sky130_fd_pr__model__parasitic__diode_pw2dn__ajunction_mult=1.280
+.param sky130_fd_pr__model__parasitic__diode_pw2dn__pjunction_mult=1.022
+.param sky130_fd_pr__nfet_01v8__ajunction_mult=1.2169e+0
+.param sky130_fd_pr__nfet_01v8__pjunction_mult=1.2474e+0
+.param sky130_fd_pr__pfet_01v8_hvt__ajunction_mult=8.9020e-1
+.param sky130_fd_pr__pfet_01v8_hvt__pjunction_mult=9.3088e-1
+.param dkispp=9.2840e-01
+.param dkbfpp=9.5154e-01
+.param dknfpp=1.000
+.param dkispp5x=1.0046e+00
+.param dkbfpp5x=1.1288e+00
+.param dknfpp5x=1.0009e+00
+.param dkisepp5x=0.745
+.param cvpp2_nhvnative10x4_cor=0.862
+.param cvpp2_nhvnative10x4_sub=8.68e-16
+.param cvpp2_phv5x4_cor=1.136
+.param cvpp2_phv5x4_sub=1.23e-14

@@ -11,15 +11,12 @@
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*
-* SPDX-License-Identifier: Apache-2.0
 
-
-.subckt sky130_fd_pr__rf_nfet_01v8_lvt_bM04W5p00L0p18 DRAIN GATE SOURCE SUBSTRATE
-X0 SOURCE GATE DRAIN SUBSTRATE sky130_fd_pr__nfet_01v8_lvt w=5.05e+06u l=180000u
-X1 SOURCE SUBSTRATE SUBSTRATE SUBSTRATE sky130_fd_pr__nfet_01v8_lvt w=5.05e+06u l=150000u
-X2 DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__nfet_01v8_lvt w=5.05e+06u l=180000u
-X3 DRAIN GATE SOURCE SUBSTRATE sky130_fd_pr__nfet_01v8_lvt w=5.05e+06u l=180000u
-X4 SUBSTRATE SUBSTRATE SOURCE SUBSTRATE sky130_fd_pr__nfet_01v8_lvt w=5.05e+06u l=150000u
-X5 SOURCE GATE DRAIN SUBSTRATE sky130_fd_pr__nfet_01v8_lvt w=5.05e+06u l=180000u
+.subckt sky130_fd_pr__rf_nfet_01v8_lvt_bm04w5p00l0p18 drain gate source substrate
+x0 source gate drain substrate sky130_fd_pr__nfet_01v8_lvt w=5.05e+06u l=180000u
+x1 source substrate substrate substrate sky130_fd_pr__nfet_01v8_lvt w=5.05e+06u l=150000u
+x2 drain gate source substrate sky130_fd_pr__nfet_01v8_lvt w=5.05e+06u l=180000u
+x3 drain gate source substrate sky130_fd_pr__nfet_01v8_lvt w=5.05e+06u l=180000u
+x4 substrate substrate source substrate sky130_fd_pr__nfet_01v8_lvt w=5.05e+06u l=150000u
+x5 source gate drain substrate sky130_fd_pr__nfet_01v8_lvt w=5.05e+06u l=180000u
 .ends

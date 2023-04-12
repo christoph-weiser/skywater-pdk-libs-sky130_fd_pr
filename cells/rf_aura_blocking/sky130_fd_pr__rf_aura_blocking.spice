@@ -11,18 +11,10 @@
 * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 * See the License for the specific language governing permissions and
 * limitations under the License.
-*
-* SPDX-License-Identifier: Apache-2.0
 
-
-
-
-
-
-.subckt sky130_fd_pr__rf_aura_blocking B_P D_N2 D_P D_P2 G G_N2 G_P G_P2 NWELL S S_N2
-+ S_P S_P2 VGND VPWR
-Xsky130_fd_pr__rf_pfet_01v8_aF02W3p00L0p15_0 D_P2 S_P2 G_P2 B_P SUBS sky130_fd_pr__rf_pfet_01v8_aF02W3p00L0p15
-Xsky130_fd_pr__rf_nfet_01v8_lvt_aF08W3p00L0p15_0 D_N2 G_N2 S_N2 SUBS sky130_fd_pr__rf_nfet_01v8_lvt_aF08W3p00L0p15
-Xsky130_fd_pr__rf_pfet_01v8_aF02W0p84L0p15_0 D_P S_P G_P B_P SUBS sky130_fd_pr__rf_pfet_01v8_aF02W0p84L0p15
-Xsky130_fd_pr__rf_nfet_01v8_lvt_aF02W0p42L0p15_0 VPWR G S SUBS sky130_fd_pr__rf_nfet_01v8_lvt_aF02W0p42L0p15
+.subckt sky130_fd_pr__rf_aura_blocking b_p d_n2 d_p d_p2 g g_n2 g_p g_p2 nwell s s_n2 s_p s_p2 vgnd vpwr
+xsky130_fd_pr__rf_pfet_01v8_af02w3p00l0p15_0 d_p2 s_p2 g_p2 b_p subs sky130_fd_pr__rf_pfet_01v8_af02w3p00l0p15
+xsky130_fd_pr__rf_nfet_01v8_lvt_af08w3p00l0p15_0 d_n2 g_n2 s_n2 subs sky130_fd_pr__rf_nfet_01v8_lvt_af08w3p00l0p15
+xsky130_fd_pr__rf_pfet_01v8_af02w0p84l0p15_0 d_p s_p g_p b_p subs sky130_fd_pr__rf_pfet_01v8_af02w0p84l0p15
+xsky130_fd_pr__rf_nfet_01v8_lvt_af02w0p42l0p15_0 vpwr g s subs sky130_fd_pr__rf_nfet_01v8_lvt_af02w0p42l0p15
 .ends
